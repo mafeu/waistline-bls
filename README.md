@@ -23,7 +23,7 @@ The BLS database contains nutritional information such as:
 - proteins,
 - carbohydrates,
 - fats,
-- fibres,
+- fibers,
 - vitamins,
 - minerals,
 - and other nutrients.
@@ -58,11 +58,11 @@ This repository contains:
   JSON file used by `bls_to_waistline.py` to name the main food groups.
 
 The conversion does the following:
-- extreacts all default nutrition values used by Waistline (for complete list see python script) from BLS database
+- extracts all default nutrition values used by Waistline (for complete list see python script) from BLS database
 - keeps the original nutritional values
-- only calories information is extracted, kilojouls information is not considered
+- only calories information is extracted, kilojoules information is not considered
 - no information on selenium and caffeine as they are not included in BLS database
-- trans-fat and omega-9-fat are summed up from severeal fatty acids (for details see source code of python script)
+- trans-fat and omega-9-fat are summed up from several fatty acids (for details see source code of python script)
 - when necessary amount is scaled to units used by Waistline
 - changes the data format to JSON
 
