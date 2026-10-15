@@ -54,6 +54,8 @@ This repository contains:
   converted database with food names in English ready for import into Waistline.
 - `bls_to_waistline.py`:
   a Python script that converts the BLS database (Microsoft Excel 2007+ format) into Waistline import format.
+- `bls_groups_de_en.json`:
+  JSON file used by `bls_to_waistline.py` to name the main food groups.
 
 The conversion does the following:
 - extreacts all default nutrition values used by Waistline (for complete list see python script) from BLS database
