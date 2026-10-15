@@ -73,7 +73,7 @@ Settings → Import food database → Select JSON file
 
 You need to choose a food category for the import.
 
-The imported item are stored in your local database, but they are hidden by default and only show up if you set the filter inside the search bar to the food category used during the import.
+The imported items are stored in your local database, but they are hidden by default and only show up if you set the filter inside the search bar to the food category used during the import.
 
 ## Data license
 
